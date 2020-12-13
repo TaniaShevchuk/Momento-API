@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.DomainService", "App.Do
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.DomainPostgreSql", "App.DomainPostgreSql\App.DomainPostgreSql.csproj", "{4A95B40A-CECB-4DBB-B0A4-E7FE1E263666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.WebApi", "App.WebApi\App.WebApi.csproj", "{BC787473-A245-4859-B84C-12F1B62860DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.WebApi", "App.WebApi\App.WebApi.csproj", "{BC787473-A245-4859-B84C-12F1B62860DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3B5C6C44-73C3-42D4-AB16-50CE097E79FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "Tests\UnitTests\UnitTests.csproj", "{32582C66-0AC6-4D44-AB21-FD1E30521B8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +43,16 @@ Global
 		{BC787473-A245-4859-B84C-12F1B62860DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC787473-A245-4859-B84C-12F1B62860DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC787473-A245-4859-B84C-12F1B62860DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32582C66-0AC6-4D44-AB21-FD1E30521B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32582C66-0AC6-4D44-AB21-FD1E30521B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32582C66-0AC6-4D44-AB21-FD1E30521B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32582C66-0AC6-4D44-AB21-FD1E30521B8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32582C66-0AC6-4D44-AB21-FD1E30521B8C} = {3B5C6C44-73C3-42D4-AB16-50CE097E79FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5F2B1EC7-417D-4532-832A-E210C7AAA259}
