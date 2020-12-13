@@ -1,4 +1,6 @@
 ﻿using App.DomainContract;
+using App.DomainPostgreSql.Common;
+using App.DomainRepository;
 using App.DomainService;
 using App.DomainService.Common;
 using Microsoft.Extensions.Configuration;
@@ -18,6 +20,8 @@ namespace App.WebApi.Mappers
         public static IServiceCollection AddCustomServices(this IServiceCollection services)
         {
             services.TryAddSingleton<IAuthSvc, AuthSvc>();
+            services.TryAddSingleton<IDataFactory, DataFactory>();
+
 
             return services;
         }

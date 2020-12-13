@@ -1,0 +1,28 @@
+﻿[
+    {
+        "firstName": "John",
+        "friends": null,
+        "imageUri": null,
+        "lastName": "Smith",
+        "nickname": "somebody",
+        "userId": 1
+    },
+    {
+        "firstName": "firstName2",
+        "friends": null,
+        "imageUri": null,
+        "lastName": "lastName2",
+        "nickname": "nickname2",
+        "userId": 2,
+        "success": true
+    },
+    {
+        "firstName": "firstName3",
+        "friends": null,
+        "imageUri": null,
+        "lastName": "lastName3",
+        "nickname": "nickname3",
+        "userId": 3,
+        "success": true
+    }
+]
